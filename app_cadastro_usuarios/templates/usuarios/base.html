@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  </head>
+
+  <body>
+    <header>
+      <h2><a href="{% url 'home' %}">Cadastre-me</a></h2>
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Cadastro</a></li>
+          <li><a href="{% url 'usuarios' %}">Lista</a></li>
+        </ul>
+      </nav>
+    </header>
+    {% block content %}
+
+    {% endblock %}
+  </body>
+
+</html>

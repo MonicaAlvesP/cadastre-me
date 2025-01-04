@@ -1,0 +1,42 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Django
+*.log
+db.sqlite3
+.env
+
+# Virtual environments
+venv/
+.env/
+*.venv/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Migrations
+**/migrations/__pycache__/
+**/migrations/*.pyc
+**/migrations/*.pyo
+
+# Node modules (se aplicável)
+node_modules/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Static and media (se você os gera localmente)
+staticfiles/
+media/

@@ -1,0 +1,12 @@
+{% extends 'usuarios/base.html' %}
+{% block content %}
+<main class="container">
+  <h1>Cadastro de Usuários</h1>
+  <form action="{% url 'usuarios' %}" method="post" class="content-form">
+    {% csrf_token %}
+    <input type="text" name="nome" id="nome" placeholder="Nome">
+    <input type="text" name="idade" id="idade" placeholder="Idade">
+    <button type="submit">Cadastrar</button>
+  </form>
+</main>
+{% endblock %}
