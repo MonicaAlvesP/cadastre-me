@@ -1,19 +1,19 @@
-# Projeto Cadastro de Usuários
+# Projeto Cadastro de Usuários 📝
 
 Este projeto é uma aplicação para cadastro de usuários, desenvolvida utilizando o framework Django. A aplicação permite gerenciar usuários através de funcionalidades como cadastro, exclusão e listagem de usuários.
 
-## Funcionalidades
+## Funcionalidades 🚀
 
 - **Cadastro de novos usuários**: Permite adicionar novos usuários ao sistema.
 - **Exclusão de usuários**: Permite remover usuários existentes do sistema.
 - **Listagem de usuários**: Exibe uma lista de todos os usuários cadastrados no sistema.
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas 🛠️
 
-- **Linguagem de Programação**: Python
-- **Framework**: Django
+- **Linguagem de Programação**: Python 🐍
+- **Framework**: Django 🌐
 
-## Como Executar o Projeto
+## Como Executar o Projeto 🏃‍♂️
 
 1. **Clone o repositório**:
   ```bash
@@ -49,5 +49,4 @@ Este projeto é uma aplicação para cadastro de usuários, desenvolvida utiliza
   python manage.py runserver
   ```
 
-Agora você pode acessar a aplicação no seu navegador através do endereço `http://127.0.0.1:8000/`.
-
+Agora você pode acessar a aplicação no seu navegador através do endereço `http://127.0.0.1:8000/`. 🌍
